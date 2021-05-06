@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+:root {
+    --bg: #666a86;
+    --fg: #fac9b8;
+    --gr: #252525;
+    --wh: #f0f0f0;
+}
+
+/* *, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: var(--bg);
+}
+
+.banner {
+    font-family: 'Peralta', cursive;
+    font-size: 2rem;
+    background-color: var(--fg);
+    padding: 20px;
+}
+
